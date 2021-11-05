@@ -30,6 +30,6 @@ if (eta < 18) {
   }
 
 
-  let prezzoTot = '€' + '' + prezzoTratta;
+  let prezzoTot = '€' + ' ' + prezzoTratta;
   document.getElementById('prezzotot').innerHTML=prezzoTot;
   console.log(prezzoTot)
