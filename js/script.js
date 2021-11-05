@@ -24,7 +24,12 @@ let prezzoTratta = chilometri * 0.21;
 if (eta < 18) {
     console.log (prezzoTratta - prezzoTratta * 20 / 100);
   } else if (eta > 65) {
-    console.log(prezzoTratta - prezzoTratta * 40 / 100);
+    console.log (prezzoTratta - prezzoTratta * 40 / 100);
   } else {
     console.log (prezzoTratta);
   }
+
+
+  let prezzoTot = '€' + '' + prezzoTratta;
+  document.getElementById('prezzotot').innerHTML=prezzoTot;
+  console.log(prezzoTot)
