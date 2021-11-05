@@ -1,11 +1,17 @@
 // alert('ciao');
 
-
+// chilometri
 let chilometri = prompt('Quanti chilometri vuoi percorrere?');
-console.log('nome:'+ chilometri);
+console.log('chilometri:'+ chilometri);
 
-let eta = prompt('Quanti chilometri vuoi percorrere?');
-console.log('nome:'+ eta);
+if (isNaN(chilometri)){
+    console.log('Non hai inserito un numero')
+}
+
+
+// età
+let eta = prompt('Quanti anni hai?');
+console.log('età:'+ eta);
 
 if (isNaN(eta)){
     console.log('Non hai inserito un numero')
